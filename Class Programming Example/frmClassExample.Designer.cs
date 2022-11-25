@@ -33,9 +33,9 @@
             // 
             // btnCreateObject
             // 
-            this.btnCreateObject.Location = new System.Drawing.Point(104, 120);
+            this.btnCreateObject.Location = new System.Drawing.Point(64, 57);
             this.btnCreateObject.Name = "btnCreateObject";
-            this.btnCreateObject.Size = new System.Drawing.Size(88, 23);
+            this.btnCreateObject.Size = new System.Drawing.Size(111, 38);
             this.btnCreateObject.TabIndex = 0;
             this.btnCreateObject.Text = "객체 생성";
             this.btnCreateObject.UseVisualStyleBackColor = true;
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(228, 141);
             this.Controls.Add(this.btnCreateObject);
             this.Name = "frmClassExample";
             this.Text = "Class Programming Example";
