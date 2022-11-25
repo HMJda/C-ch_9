@@ -19,7 +19,8 @@ namespace FontDialogApp
 
         private void fontDialog1_Apply(object sender, EventArgs e)
         {
-
+            textBox1.Font = fontDialog1.Font;
+            textBox1.ForeColor = fontDialog1.Color;
         }
 
         private void button1_Click(object sender, EventArgs e)
